@@ -3,18 +3,17 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.page.html',
-  styleUrls: ['./register.page.scss'],
+  selector: 'app-data-calon-terdaftar',
+  templateUrl: './data-calon-terdaftar.page.html',
+  styleUrls: ['./data-calon-terdaftar.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class RegisterPage implements OnInit {
+export class DataCalonTerdaftarPage implements OnInit {
 
   constructor() { }
-  
+
   ngOnInit() {
   }
 

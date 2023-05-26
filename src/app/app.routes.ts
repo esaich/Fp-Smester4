@@ -2,16 +2,42 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'home',
-    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
+    path: 'login',
+    loadComponent: () => import('./login/login.page').then((m) => m.LoginPage),
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
     path: 'register',
     loadComponent: () => import('./register/register.page').then( m => m.RegisterPage)
+  },
+  {
+    path: 'login',
+    loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
+  },
+  {
+    path: 'content',
+    loadComponent: () => import('./content/content.page').then( m => m.ContentPage)
+  },
+  {
+    path: 'coba',
+    loadComponent: () => import('./coba/coba.page').then( m => m.CobaPage)
+  },
+  
+  {
+    path: 'hasil-voting',
+    loadComponent: () => import('./hasil-voting/hasil-voting.page').then( m => m.HasilVotingPage)
+  },
+
+  {
+    path: 'data-calon',
+    loadComponent: () => import('./data-calon/data-calon.page').then( m => m.DataCalonPage)
+  },
+  {
+    path: 'data-calon-terdaftar',
+    loadComponent: () => import('./data-calon-terdaftar/data-calon-terdaftar.page').then( m => m.DataCalonTerdaftarPage)
   },
 ];

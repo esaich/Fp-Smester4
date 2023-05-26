@@ -3,18 +3,17 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.page.html',
-  styleUrls: ['./register.page.scss'],
+  selector: 'app-coba',
+  templateUrl: './coba.page.html',
+  styleUrls: ['./coba.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class RegisterPage implements OnInit {
+export class CobaPage implements OnInit {
 
   constructor() { }
-  
+
   ngOnInit() {
   }
 

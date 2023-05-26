@@ -14,4 +14,5 @@ export class HomePage {
   klik(){
     this.router.navigateByUrl('register')
   }
+  
 }

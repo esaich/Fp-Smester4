@@ -5,16 +5,18 @@ import { IonicModule } from '@ionic/angular';
 
 
 @Component({
-  selector: 'app-register',
-  templateUrl: './register.page.html',
-  styleUrls: ['./register.page.scss'],
+  selector: 'app-example',
+  templateUrl: 'content.page.html',
+  styleUrls: ['./content.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class RegisterPage implements OnInit {
-
+export class ContentPage implements OnInit {
   constructor() { }
-  
+  isModalOpen = false;
+  setOpen(isOpen: boolean) {
+    this.isModalOpen = isOpen;
+  }
   ngOnInit() {
   }
 
