@@ -1,13 +1,71 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>data-calon-terdaftar</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">data-calon-terdaftar</ion-title>
+      <ion-title>Menu Content</ion-title>
     </ion-toolbar>
   </ion-header>
-</ion-content>
+  <ion-content class="ion-padding">
+    <ion-button fill="clear">Data calon</ion-button>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> 
+    
+    <div class="konten">
+     
+
+      <h1>Data Calon Terdaftar </h1>
+
+      <!-- card title -->
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+        <ion-card-header>
+          <ion-card-title>Calon 1</ion-card-title>
+          <ion-button fill="clear" > <ion-icon class="hapus" name="trash" size="large"></ion-icon> </ion-button>  
+          <ion-button class="edit" fill="clear" > <ion-icon class="edit" name="pencil" size="large"></ion-icon> </ion-button>  
+        </ion-card-header>
+
+        
+        
+        </ion-card>
+
+      <!-- card title -->
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+        <ion-card-header>
+          <ion-card-title>Calon 2</ion-card-title>
+         <ion-button fill="clear" > <ion-icon class="hapus" name="trash" size="large"></ion-icon> </ion-button>
+         <ion-button class="edit" fill="clear" > <ion-icon class="edit" name="pencil" size="large"></ion-icon> </ion-button> 
+        </ion-card-header>
+
+        
+        
+      </ion-card>
+
+      <!-- card title -->
+      <ion-card>
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+        <ion-card-header>
+          <ion-card-title>Calon 3</ion-card-title>
+          <ion-button fill="clear" > <ion-icon class="hapus" name="trash" size="large"></ion-icon> </ion-button>
+          <ion-button class="edit" fill="clear" > <ion-icon class="edit" name="pencil" size="large"></ion-icon> </ion-button> 
+        </ion-card-header>
+
+        
+       
+      </ion-card>
+      <!-- --- -->
+
+
+    </div>
+  
+  </ion-content>
+</div>

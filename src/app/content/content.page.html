@@ -32,7 +32,28 @@
   </ion-header>
   <ion-content class="ion-padding"> 
   
+    <!-- card -->
     <ion-content >
+      
+      <ion-card> 
+        <ion-card-header>
+          <ion-card-title class="card-title">Calon 1</ion-card-title>
+         
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /></ion-col>
+              
+            </ion-row>
+          </ion-grid>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed quis saepe aspernatur suscipit maiores placeat quidem nam esse! Fugit quis, unde vel odit commodi et deserunt numquam veniam sed.</p> -->
+          <ion-button expand="block" (click)="setOpen(true)">Lihat Calon</ion-button>
+        </ion-card-content>
+      </ion-card>
+
+      <!--  -->
+
       <ion-card> 
         <ion-card-header>
           <ion-card-title class="card-title">Card Title</ion-card-title>
@@ -42,18 +63,16 @@
           <ion-grid>
             <ion-row>
               <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /></ion-col>
-              <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"  /></ion-col>
+              
             </ion-row>
           </ion-grid>
           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed quis saepe aspernatur suscipit maiores placeat quidem nam esse! Fugit quis, unde vel odit commodi et deserunt numquam veniam sed.</p> -->
           <ion-button expand="block" (click)="setOpen(true)">Lihat Calon</ion-button>
         </ion-card-content>
       </ion-card>
-    </ion-content>
-    
-    <!-- - -->
-    
-    <ion-content >
+      
+      <!--  -->
+      
       <ion-card> 
         <ion-card-header>
           <ion-card-title class="card-title">Card Title</ion-card-title>
@@ -63,14 +82,16 @@
           <ion-grid>
             <ion-row>
               <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /></ion-col>
-              <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"  /></ion-col>
+              
             </ion-row>
           </ion-grid>
           <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed quis saepe aspernatur suscipit maiores placeat quidem nam esse! Fugit quis, unde vel odit commodi et deserunt numquam veniam sed.</p> -->
           <ion-button expand="block" (click)="setOpen(true)">Lihat Calon</ion-button>
         </ion-card-content>
       </ion-card>
+
     </ion-content>
+    
     
 
     <!-- modlas -->
@@ -88,21 +109,21 @@
           <ion-card>
             
             <ion-card-header>
-              <ion-card-title>Card Title</ion-card-title>
-              <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+              <ion-card-title class="modals">Calon 1</ion-card-title>
             </ion-card-header>
             <ion-grid>
               <ion-row>
                 <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /></ion-col>
-                <ion-col><img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png"  /></ion-col>
+                
               </ion-row>
             </ion-grid>
             <ion-card-content>
-              <h4>Visi :</h4>
-              <p>Here's a small text description for the card content. Nothing more, nothing less.</p>
+              <h4 class="j-visi">Visi :</h4>
+              <p class="visi" >Here's a small text description for the card content. Nothing more, nothing less.</p>
               <br>
-              <h4>Misi :</h4>
-              <p>Here's a small text description for the card content. Nothing more, nothing less.</p>
+              <h4 class="j-misi" >Misi :</h4>
+              <p class="misi" >Here's a small text description for the card content. Nothing more, nothing less.</p>
+              <br/>
               <ion-button>Pilih Calon</ion-button>
             </ion-card-content>  
           </ion-card>

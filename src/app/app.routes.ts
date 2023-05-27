@@ -40,4 +40,8 @@ export const routes: Routes = [
     path: 'data-calon-terdaftar',
     loadComponent: () => import('./data-calon-terdaftar/data-calon-terdaftar.page').then( m => m.DataCalonTerdaftarPage)
   },
+  {
+    path: 'login-admin',
+    loadComponent: () => import('./login-admin/login-admin.page').then( m => m.LoginAdminPage)
+  },
 ];

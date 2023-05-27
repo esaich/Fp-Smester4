@@ -1,10 +1,12 @@
 <div>
-  <h1>Login</h1>
-  <!-- <ion-button color="">Primary</ion-button>
-  <div id="container">
-    <ion-button (click)="klik()">
-      click
-    </ion-button> -->
+  <!-- <h1>Login</h1> -->
+
+  <ion-img
+  src="../.../../../assets/icon/e-logo.jpg"
+  alt="The Wisconsin State Capitol building in Madison, WI at night"
+></ion-img>
+
+
   <ion-list>
 
       <ion-input type="text"
@@ -13,19 +15,19 @@
       labelPlacement="floating"
       ngModel></ion-input>
 
-      <ion-input type="text"
+      <ion-input type="password"
       fill="outline"
-      label="NO WA"
+      label="Password"
       labelPlacement="floating"
       ngModel></ion-input>
+
       <ion-button class="login" (click)="masuk()" >
         Login
       </ion-button>
       
       <ion-button  class="register" fill="clear" (click)="registrasi()">Belum Punya Akun? Klik disini</ion-button>
+      <ion-button class="login-admin" fill="clear" >Login Admin</ion-button>
       
-
-    
   </ion-list>
 
 
